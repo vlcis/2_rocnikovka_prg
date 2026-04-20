@@ -5,117 +5,156 @@ Zjištění co je hra Polda (30min)
 Rozhododnutí o struktuře (15min)
 
 Struktura, kterou pravděpodobně změním:
-# Případ ztraceného USB
+# Nedělní návrat
 
-## Základní informace
-Krátká textová point-and-click adventura inspirovaná sérií Polda.  
-Hra je navržena jako jednoduchý školní projekt s minimální grafikou a jedním levelem.
+## Popis projektu
+
+**Nedělní návrat** je krátká 2D point & click hra inspirovaná logickými adventurami ve stylu série Polda.
+
+Hráč se probouzí po večírku v cizím domě, aniž by věděl, kde se nachází nebo jak se tam dostal. Cílem hry je dostat se ven pomocí interakce s prostředím, sbírání předmětů a řešení logických hádanek.
+
+Hra kombinuje klasické prvky (klíče, zamčené dveře) s méně zřejmými logickými úkoly a nabízí více způsobů, jak dosáhnout cíle.
 
 ---
 
-## Příběh
-Hlavní postava je policista / IT „detektiv“, který řeší banální případ:  
-někomu ve škole zmizel USB disk s důležitým projektem.
+## Herní principy
 
-Během vyšetřování:
-- vyslýchá 3–4 podezřelé (spolužáci / učitel)
-- zjišťuje, že každý něco skrývá
-- postupně získává předměty a informace
+* point & click ovládání
+* interakce s objekty v prostředí
+* sbírání a používání předmětů
+* logické hádanky
+* více možných řešení
 
-### Twist
-USB není ukradené — někdo ho „zabavil“, protože obsah byl podezřelý / trapný / nelegální.
+---
 
-### Konec
-Hráč odhalí viníka a rozhodne se:
-- vrátit USB
-- nebo ho nechat zmizet
+## Cíl hry
+
+Dostat se z domu ven.
+
+Hráč může:
+
+* uniknout **oknem** (jednodušší cesta)
+* nebo odemknout **hlavní dveře pomocí číselného kódu** (obtížnější cesta)
+
+---
+
+## Herní mechaniky
+
+### Inventář
+
+Hráč může sbírat předměty (např. klíče), které slouží k odemykání dalších částí domu.
+
+### Postup
+
+* hráč postupně odemyká nové místnosti
+* získává nové informace a předměty
+* skládá si obraz o situaci
+
+### Hádanky
+
+Ve hře se nachází dva typy hádanek:
+
+1. **Přímé (lineární)**
+
+   * např. nalezení klíče a odemčení dveří
+
+2. **Nepřímé (skryté)**
+
+   * kombinování nenápadných informací z prostředí
+   * vyžadují pozornost a logické uvažování
+
+---
+
+## Náročná hádanka (číselný kód)
+
+Hlavní dveře jsou zamčené číselným zámkem.
+
+Kód není přímo sdělen, ale je skryt v prostředí:
+
+* čísla se nachází v různých objektech (např. hodiny, poznámky, detaily v místnosti)
+* hráč musí tyto informace spojit
+
+Tato hádanka je záměrně obtížná a není nutná pro dokončení hry.
 
 ---
 
 ## Struktura hry
-- 1 level (jedna obrazovka – např. učebna)
-- žádný pohyb mezi lokacemi
 
-### Klikatelné prvky
-- postavy (NPC)
-- objekty (skříňka, počítač, batoh, koš…)
+Hra obsahuje několik propojených místností:
 
----
+* obývací pokoj
+* kuchyň
+* chodba
 
-## Herní funkce
-
-### 1. Interakce s objekty
-- kliknutí zobrazí text (komentář postavy)
-- někdy hráč získá předmět
-
-**Příklad:**
-> „Tohle je koš. Smrdí. Asi do něj sahat nebudu… no dobře, budu.“
+Každá místnost obsahuje interaktivní objekty, které posouvají hráče dál.
 
 ---
 
-### 2. Inventář
-- textový seznam předmětů
-- možnosti:
-  - použít předmět
-  - kombinovat předměty (omezeně)
+## Konec hry
+
+Po opuštění domu (oknem nebo dveřmi) hráč zjistí, že:
+
+> se nachází u sousedů a do domu se dostal vlastní chybou.
 
 ---
 
-### 3. Dialogy
-- kliknutí na postavu otevře dialogové možnosti
-- jednoduché otázky:
-  - „Zeptej se na USB“
-  - „Zeptej se na alibi“
-  - „Ukaž předmět“
+## Použité technologie
 
-- nové dialogy se odemykají podle postupu ve hře
+Projekt je vytvořen v jazyce:
 
----
+* Python
 
-### 4. Postup hrou
-Hráč musí:
-- získat informace
-- najít 2–3 klíčové předměty
-- odemknout finální dialog
+Možné knihovny:
+
+* pygame (pro grafiku a vstup)
 
 ---
 
-### 5. Finální volba
-Na konci hry:
-- „Obvinit X“
-- „Zamlčet případ“
+## Důvod volby technologie
+
+Python byl zvolen z následujících důvodů:
+
+* rychlá implementace
+* jednoduchá syntaxe
+* vhodnost pro menší 2D projekty
+* dostatečné možnosti pro práci s grafikou a vstupem
+
+Cílem bylo soustředit se především na herní logiku, nikoliv na složitou technickou implementaci.
 
 ---
 
-## Obsah hry
+## Rozsah projektu
 
-### Postavy (max 4)
-- Hráč (detektiv)
-- Podezřelý 1 (divný spolužák)
-- Podezřelý 2 (učitel)
-- Podezřelý 3 (tichý typ)
+Rozsah hry odpovídá časovým možnostem (cca 12–20 hodin práce).
 
----
+Projekt se zaměřuje na:
 
-### Předměty (5–8)
-- USB (klíčový předmět)
-- klíč
-- papír s heslem
-- mobil
-- vtipný / zbytečný předmět
+* funkčnost
+* logickou strukturu
+* herní zážitek
+
+Nikoli na:
+
+* pokročilou grafiku
+* rozsáhlý obsah
 
 ---
 
-### Puzzly (3–5)
-- najít klíč → otevřít skříňku
-- zjistit heslo → otevřít soubor
-- použít předmět v dialogu
+## Možná rozšíření
+
+* více místností
+* více předmětů
+* další alternativní konce
+* zvukové efekty
 
 ---
 
-## Grafika
-Minimalistická:
-- 1 pozadí (obrázek nebo barva)
-- postavy:
-  - statické obrázky nebo textová tlačítka
-- inventář jako textový seznam
+## Autor
+
+[TVÉ JMÉNO]
+
+---
+
+## Poznámka
+
+Projekt je školní práce vytvořená za účelem demonstrace základních principů návrhu jednoduché hry a implementace herní logiky.
