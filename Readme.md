@@ -1,3 +1,8 @@
+20.04. 2026
+Vytvoření scénáře (55min)
+První pokusy o grafiku (selhaly) (10min)
+
+
 17. 04. 2026
 Vytvoření projektu  (5min)
 Zopakovaní základních git funkcí a příkazů (35 min)
