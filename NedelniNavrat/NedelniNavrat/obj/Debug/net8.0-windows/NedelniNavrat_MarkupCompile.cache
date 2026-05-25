@@ -10,11 +10,11 @@ none
 false
 TRACE;DEBUG;NET;NET8_0;NETCOREAPP;WINDOWS;WINDOWS7_0;NET5_0_OR_GREATER;NET6_0_OR_GREATER;NET7_0_OR_GREATER;NET8_0_OR_GREATER;NETCOREAPP3_0_OR_GREATER;NETCOREAPP3_1_OR_GREATER;WINDOWS7_0_OR_GREATER
 C:\Users\LOLEY\OneDrive\Plocha\2_rocnikovka_prg\NedelniNavrat\NedelniNavrat\App.xaml
-52127688484
+6-1142582954
 
-8-45891905
+9-429010185
 198-180915029
-MainWindow.xaml;Pages\hall.xaml;Pages\kitchen.xaml;Pages\LivingRoom.xaml;Pages\MenuPage.xaml;
+MainWindow.xaml;messages\PripravujemeProVas.xaml;Pages\hall.xaml;Pages\kitchen.xaml;Pages\LivingRoom.xaml;Pages\MenuPage.xaml;
 
 False
 

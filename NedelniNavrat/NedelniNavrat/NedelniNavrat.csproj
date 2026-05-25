@@ -18,6 +18,7 @@
     <None Remove="img\menu.jpg" />
     <None Remove="img\menu.png" />
     <None Remove="img\menupage.jpg" />
+    <None Remove="img\pozadi_popup.jpg" />
   </ItemGroup>
 
   <ItemGroup>
@@ -27,6 +28,7 @@
     <Resource Include="img\menupage.jpg">
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </Resource>
+    <Resource Include="img\pozadi_popup.jpg" />
   </ItemGroup>
 
 </Project>

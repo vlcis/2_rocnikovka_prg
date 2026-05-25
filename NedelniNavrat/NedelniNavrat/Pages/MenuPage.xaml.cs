@@ -1,4 +1,5 @@
-﻿using System;
+﻿using NedelniNavrat.messages;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Security.Cryptography.X509Certificates;
@@ -39,7 +40,8 @@ namespace NedelniNavrat.Pages
 
         private void PripravujemeProVas(object sender, RoutedEventArgs e)
         {
-            MessageBox.Show("Tato funkce je připravována pro vás, zůstaňte naladěni!");
+            new PripravujemeProVas().ShowDialog();
+            //MessageBox.Show("Tato funkce je připravována pro vás, zůstaňte naladěni!");
         }
     }
 }

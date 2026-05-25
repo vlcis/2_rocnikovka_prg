@@ -38,6 +38,22 @@
 
 
         </Grid>
+        <Button Content="Button" HorizontalAlignment="Left" Margin="859,618,0,0" VerticalAlignment="Top" Height="42" Width="73"/>
+        <Button Content="Button" HorizontalAlignment="Left" Margin="707,570,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.751,0.671" Width="146" Height="220">
+            <Button.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="-1.264"/>
+                    <TranslateTransform X="-7.945" Y="9.17"/>
+                </TransformGroup>
+            </Button.RenderTransform>
+        </Button>
+        <Button Content="Button" HorizontalAlignment="Left" Margin="370,201,0,0" VerticalAlignment="Top" Width="35" Height="337"/>
+        <Button Content="Button" HorizontalAlignment="Left" Margin="684,201,0,0" VerticalAlignment="Top" Width="57" Height="346"/>
+        <Button Content="Button" HorizontalAlignment="Left" Margin="248,152,0,0" VerticalAlignment="Top" Width="75" Height="487"/>
+        <Button Content="Button" HorizontalAlignment="Left" Margin="452,216,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.57,0.611" Width="140" Height="290"/>
+        <Button Content="Button" HorizontalAlignment="Left" Margin="778,274,0,0" VerticalAlignment="Top" Height="183" Width="92"/>
 
     </Grid>
 </Page>

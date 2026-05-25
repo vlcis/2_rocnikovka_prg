@@ -27,3 +27,5 @@ C:\Users\LOLEY\OneDrive\Plocha\2_rocnikovka_prg\NedelniNavrat\NedelniNavrat\obj\
 C:\Users\LOLEY\OneDrive\Plocha\2_rocnikovka_prg\NedelniNavrat\NedelniNavrat\obj\Debug\net8.0-windows\Pages\kitchen.g.cs
 C:\Users\LOLEY\OneDrive\Plocha\2_rocnikovka_prg\NedelniNavrat\NedelniNavrat\obj\Debug\net8.0-windows\Pages\hall.baml
 C:\Users\LOLEY\OneDrive\Plocha\2_rocnikovka_prg\NedelniNavrat\NedelniNavrat\obj\Debug\net8.0-windows\Pages\kitchen.baml
+C:\Users\LOLEY\OneDrive\Plocha\2_rocnikovka_prg\NedelniNavrat\NedelniNavrat\obj\Debug\net8.0-windows\messages\PripravujemeProVas.g.cs
+C:\Users\LOLEY\OneDrive\Plocha\2_rocnikovka_prg\NedelniNavrat\NedelniNavrat\obj\Debug\net8.0-windows\messages\PripravujemeProVas.baml
