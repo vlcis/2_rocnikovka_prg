@@ -38,7 +38,7 @@
 
 
         </Grid>
-        <Button Background="Transparent" HorizontalAlignment="Left" Margin="826,160,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.288,-0.391" Height="418" Width="104"/>
+        <Button Click="Dvere" Background="Transparent" HorizontalAlignment="Left" Margin="826,160,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.288,-0.391" Height="418" Width="104"/>
         <Button Content="Button" HorizontalAlignment="Left" Height="89" Margin="468,197,0,0" VerticalAlignment="Top" Width="121" RenderTransformOrigin="0.5,0.5">
             <Button.RenderTransform>
                 <TransformGroup>
@@ -49,10 +49,10 @@
                 </TransformGroup>
             </Button.RenderTransform>
         </Button>
-        <Button Content="Button" HorizontalAlignment="Left" Margin="160,232,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.515,0.641" Height="285" Width="84"/>
-        <Button Content="Button" HorizontalAlignment="Left" Margin="259,385,0,0" VerticalAlignment="Top" Height="57" Width="80"/>
+        <Button Click="ZatimNic" Content="Button" HorizontalAlignment="Left" Margin="160,232,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.515,0.641" Height="285" Width="84"/>
+        <Button Click="Polstar" Content="Button" HorizontalAlignment="Left" Margin="259,385,0,0" VerticalAlignment="Top" Height="57" Width="80"/>
         <Button Content="Button" HorizontalAlignment="Left" Margin="626,441,0,0" VerticalAlignment="Top" Height="106" Width="114"/>
-        <Button Content="Button" HorizontalAlignment="Left" Margin="789,566,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.5,0.5" Width="88" Height="58">
+        <Button Click="Rohozka" Content="Button" HorizontalAlignment="Left" Margin="789,566,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.5,0.5" Width="88" Height="58">
             <Button.RenderTransform>
                 <TransformGroup>
                     <ScaleTransform/>
@@ -62,7 +62,7 @@
                 </TransformGroup>
             </Button.RenderTransform>
         </Button>
-        <Button Content="Button" HorizontalAlignment="Left" Margin="60,493,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.417,0.649" Height="75">
+        <Button Click="ZatimNic" Content="Button" HorizontalAlignment="Left" Margin="60,493,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.417,0.649" Height="75">
             <Button.RenderTransform>
                 <TransformGroup>
                     <ScaleTransform/>

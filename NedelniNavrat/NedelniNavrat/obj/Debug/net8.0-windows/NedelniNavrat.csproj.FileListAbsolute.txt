@@ -29,3 +29,11 @@ C:\Users\LOLEY\OneDrive\Plocha\2_rocnikovka_prg\NedelniNavrat\NedelniNavrat\obj\
 C:\Users\LOLEY\OneDrive\Plocha\2_rocnikovka_prg\NedelniNavrat\NedelniNavrat\obj\Debug\net8.0-windows\Pages\kitchen.baml
 C:\Users\LOLEY\OneDrive\Plocha\2_rocnikovka_prg\NedelniNavrat\NedelniNavrat\obj\Debug\net8.0-windows\messages\PripravujemeProVas.g.cs
 C:\Users\LOLEY\OneDrive\Plocha\2_rocnikovka_prg\NedelniNavrat\NedelniNavrat\obj\Debug\net8.0-windows\messages\PripravujemeProVas.baml
+C:\Users\LOLEY\OneDrive\Plocha\2_rocnikovka_prg\NedelniNavrat\NedelniNavrat\obj\Debug\net8.0-windows\messages\Nasel_klic_oby.g.cs
+C:\Users\LOLEY\OneDrive\Plocha\2_rocnikovka_prg\NedelniNavrat\NedelniNavrat\obj\Debug\net8.0-windows\messages\Ovladac.g.cs
+C:\Users\LOLEY\OneDrive\Plocha\2_rocnikovka_prg\NedelniNavrat\NedelniNavrat\obj\Debug\net8.0-windows\messages\Tady_nic.g.cs
+C:\Users\LOLEY\OneDrive\Plocha\2_rocnikovka_prg\NedelniNavrat\NedelniNavrat\obj\Debug\net8.0-windows\messages\Zamceno.g.cs
+C:\Users\LOLEY\OneDrive\Plocha\2_rocnikovka_prg\NedelniNavrat\NedelniNavrat\obj\Debug\net8.0-windows\messages\Nasel_klic_oby.baml
+C:\Users\LOLEY\OneDrive\Plocha\2_rocnikovka_prg\NedelniNavrat\NedelniNavrat\obj\Debug\net8.0-windows\messages\Ovladac.baml
+C:\Users\LOLEY\OneDrive\Plocha\2_rocnikovka_prg\NedelniNavrat\NedelniNavrat\obj\Debug\net8.0-windows\messages\Tady_nic.baml
+C:\Users\LOLEY\OneDrive\Plocha\2_rocnikovka_prg\NedelniNavrat\NedelniNavrat\obj\Debug\net8.0-windows\messages\Zamceno.baml

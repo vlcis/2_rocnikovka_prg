@@ -41,7 +41,7 @@ namespace NedelniNavrat.Pages
         private void PripravujemeProVas(object sender, RoutedEventArgs e)
         {
             new PripravujemeProVas().ShowDialog();
-            //MessageBox.Show("Tato funkce je připravována pro vás, zůstaňte naladěni!");
+            
         }
     }
 }

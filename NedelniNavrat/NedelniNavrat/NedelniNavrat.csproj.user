@@ -2,7 +2,19 @@
 <Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup />
   <ItemGroup>
+    <Compile Update="messages\Nasel_klic_oby.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="messages\Ovladac.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Update="messages\PripravujemeProVas.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="messages\Tady_nic.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="messages\Zamceno.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
     <Compile Update="Pages\hall.xaml.cs">
