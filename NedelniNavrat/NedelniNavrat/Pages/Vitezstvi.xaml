@@ -1,0 +1,21 @@
+﻿<Page x:Class="NedelniNavrat.Pages.Vitezstvi"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:NedelniNavrat.Pages"
+      mc:Ignorable="d" 
+      d:DesignHeight="800" d:DesignWidth="1000"
+      Title="Vitezstvi">
+
+    <Grid>
+
+        <!-- POZADÍ (BG IMAGE) -->
+        <Image Source="/img/victory.jpg"
+   Stretch="UniformToFill"
+   Panel.ZIndex="0"/>
+
+        <Button Content="OK" Click="Button_Click" BorderThickness="5" BorderBrush="White" Background="Transparent" HorizontalAlignment="Left" Margin="771,687,0,0" VerticalAlignment="Top" Height="57" Width="144" FontSize="22" FontWeight="Bold" FontFamily="Gill Sans Ultra Bold" Foreground="White"/>
+
+    </Grid>
+</Page>

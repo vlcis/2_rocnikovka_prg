@@ -2,6 +2,12 @@
 <Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup />
   <ItemGroup>
+    <Compile Update="messages\DvereVchod.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="messages\Nasel_klic_kuchyn.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Update="messages\Nasel_klic_oby.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
@@ -9,6 +15,12 @@
       <SubType>Code</SubType>
     </Compile>
     <Compile Update="messages\PripravujemeProVas.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="messages\Ridicak.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="messages\SpatnyKod.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
     <Compile Update="messages\Tady_nic.xaml.cs">
@@ -27,6 +39,9 @@
       <SubType>Code</SubType>
     </Compile>
     <Compile Update="Pages\MenuPage.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Pages\Vitezstvi.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
   </ItemGroup>

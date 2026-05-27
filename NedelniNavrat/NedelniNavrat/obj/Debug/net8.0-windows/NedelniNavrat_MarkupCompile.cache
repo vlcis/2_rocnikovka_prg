@@ -10,11 +10,11 @@ none
 false
 TRACE;DEBUG;NET;NET8_0;NETCOREAPP;WINDOWS;WINDOWS7_0;NET5_0_OR_GREATER;NET6_0_OR_GREATER;NET7_0_OR_GREATER;NET8_0_OR_GREATER;NETCOREAPP3_0_OR_GREATER;NETCOREAPP3_1_OR_GREATER;WINDOWS7_0_OR_GREATER
 C:\Users\LOLEY\OneDrive\Plocha\2_rocnikovka_prg\NedelniNavrat\NedelniNavrat\App.xaml
-10-1959881259
+15770405754
 
-14-1600049270
+191786107602
 198-180915029
-MainWindow.xaml;messages\Nasel_klic_oby.xaml;messages\Ovladac.xaml;messages\PripravujemeProVas.xaml;messages\Tady_nic.xaml;messages\Zamceno.xaml;Pages\hall.xaml;Pages\kitchen.xaml;Pages\LivingRoom.xaml;Pages\MenuPage.xaml;
+MainWindow.xaml;messages\DvereVchod.xaml;messages\Nasel_klic_kuchyn.xaml;messages\Nasel_klic_oby.xaml;messages\Ovladac.xaml;messages\PripravujemeProVas.xaml;messages\Ridicak.xaml;messages\SpatnyKod.xaml;messages\Tady_nic.xaml;messages\Zamceno.xaml;Pages\hall.xaml;Pages\kitchen.xaml;Pages\LivingRoom.xaml;Pages\MenuPage.xaml;Pages\Vitezstvi.xaml;
 
 False
 

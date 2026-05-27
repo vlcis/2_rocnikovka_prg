@@ -43,7 +43,7 @@ namespace NedelniNavrat.Pages
         {
             if (Inventory.klicObyvak == true)
             {
-                NavigationService.Navigate(new kitchen());
+                NavigationService.Navigate(new hall());
             }
             else
             {
@@ -67,6 +67,11 @@ namespace NedelniNavrat.Pages
         private void ZatimNic(object sender, RoutedEventArgs e)
         {
             new Tady_nic().ShowDialog();
+        }
+
+        private void VzkazObyvak(object sender, RoutedEventArgs e)
+        {
+            //new Vzkaz_obyvak().ShowDialog();
         }
     }
 }
