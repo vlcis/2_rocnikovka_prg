@@ -1,4 +1,5 @@
-﻿using System;
+﻿using NedelniNavrat.messages;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -23,6 +24,21 @@ namespace NedelniNavrat.Pages
         public kitchen()
         {
             InitializeComponent();
+        }
+
+        private void Dvere(object sender, EventArgs e)
+        {
+           NavigationService.Navigate(new hall());
+        }
+
+        private void Lednicka(object sender, EventArgs e)
+        {
+            new VzkazLednice().ShowDialog();                   
+        }
+
+        private void ZatimNic(object sender, EventArgs e)
+        {
+            new Tady_nic().ShowDialog();
         }
     }
 }

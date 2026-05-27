@@ -73,6 +73,10 @@ namespace NedelniNavrat.Pages
         {
             //new Vzkaz_obyvak().ShowDialog();
         }
+        private void XXX(object sender, RoutedEventArgs e)
+        {
+            NavigationService.Navigate(new Vitezstvi());
+        }
     }
 }
 

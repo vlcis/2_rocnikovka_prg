@@ -47,3 +47,6 @@ C:\Users\LOLEY\OneDrive\Plocha\2_rocnikovka_prg\NedelniNavrat\NedelniNavrat\obj\
 C:\Users\LOLEY\OneDrive\Plocha\2_rocnikovka_prg\NedelniNavrat\NedelniNavrat\obj\Debug\net8.0-windows\messages\Ridicak.baml
 C:\Users\LOLEY\OneDrive\Plocha\2_rocnikovka_prg\NedelniNavrat\NedelniNavrat\obj\Debug\net8.0-windows\messages\SpatnyKod.baml
 C:\Users\LOLEY\OneDrive\Plocha\2_rocnikovka_prg\NedelniNavrat\NedelniNavrat\obj\Debug\net8.0-windows\Pages\Vitezstvi.baml
+C:\Users\LOLEY\OneDrive\Plocha\2_rocnikovka_prg\NedelniNavrat\NedelniNavrat\obj\Debug\net8.0-windows\messages\VzkazLednice.g.cs
+C:\Users\LOLEY\OneDrive\Plocha\2_rocnikovka_prg\NedelniNavrat\NedelniNavrat\obj\Debug\net8.0-windows\messages\VzkazLednice.baml
+C:\Users\LOLEY\OneDrive\Plocha\2_rocnikovka_prg\NedelniNavrat\NedelniNavrat\obj\Debug\net8.0-windows\App.baml

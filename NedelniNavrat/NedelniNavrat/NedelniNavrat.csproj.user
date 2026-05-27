@@ -26,6 +26,9 @@
     <Compile Update="messages\Tady_nic.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Update="messages\VzkazLednice.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Update="messages\Zamceno.xaml.cs">
       <SubType>Code</SubType>
     </Compile>

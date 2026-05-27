@@ -11,7 +11,7 @@
         <Image Source="/img/pozadi_popup.jpg"
                 Stretch="UniformToFill"
                 Panel.ZIndex="0"/>
-        <TextBlock HorizontalAlignment="Center" TextWrapping="Wrap" Text="Našel jsi řidičský průkaz Jaroslava Nováka. Jméno znáš, ale kvůli kocovině nevíš kam ho zařadit" VerticalAlignment="Top" FontSize="36" FontWeight="Bold" FontFamily="Gill Sans Ultra Bold" Height="216" Width="580" Margin="0,106,0,0" RenderTransformOrigin="0.551,0.717"/>
+        <TextBlock HorizontalAlignment="Center" TextWrapping="Wrap" Text="Našel jsi řidičský průkaz Farla Kialy. Jméno znáš, ale kvůli kocovině nevíš kam ho zařadit" VerticalAlignment="Top" FontSize="36" FontWeight="Bold" FontFamily="Gill Sans Ultra Bold" Height="216" Width="580" Margin="0,106,0,0" RenderTransformOrigin="0.551,0.717"/>
         <Button Content="OK" Click="Close" BorderThickness="5" BorderBrush="Black" Background="Transparent" HorizontalAlignment="Left" Margin="625,343,0,0" VerticalAlignment="Top" Height="57" Width="144" FontSize="22" FontWeight="Bold" FontFamily="Gill Sans Ultra Bold"/>
     </Grid>
 </Window>
