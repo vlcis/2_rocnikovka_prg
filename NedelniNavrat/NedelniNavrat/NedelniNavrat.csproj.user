@@ -2,7 +2,19 @@
 <Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup />
   <ItemGroup>
+    <Compile Update="messages\BotnikChod.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="messages\BotnikOby.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Update="messages\DvereVchod.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="messages\Knihovna.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="messages\Kos.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
     <Compile Update="messages\Nasel_klic_kuchyn.xaml.cs">
@@ -11,7 +23,13 @@
     <Compile Update="messages\Nasel_klic_oby.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Update="messages\Obraz.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Update="messages\Ovladac.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="messages\Pizza.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
     <Compile Update="messages\PripravujemeProVas.xaml.cs">
@@ -20,13 +38,40 @@
     <Compile Update="messages\Ridicak.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Update="messages\Skrinka1.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="messages\Skrinka2.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="messages\Skrinka3.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="messages\Skrinka4.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="messages\Skrinka5.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="messages\Skrinka6.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Update="messages\SpatnyKod.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="messages\Suplik.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
     <Compile Update="messages\Tady_nic.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Update="messages\Trouba.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Update="messages\VzkazLednice.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="messages\VzkazTrouba.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
     <Compile Update="messages\Zamceno.xaml.cs">

@@ -10,11 +10,11 @@ none
 false
 TRACE;DEBUG;NET;NET8_0;NETCOREAPP;WINDOWS;WINDOWS7_0;NET5_0_OR_GREATER;NET6_0_OR_GREATER;NET7_0_OR_GREATER;NET8_0_OR_GREATER;NETCOREAPP3_0_OR_GREATER;NETCOREAPP3_1_OR_GREATER;WINDOWS7_0_OR_GREATER
 C:\Users\LOLEY\OneDrive\Plocha\2_rocnikovka_prg\NedelniNavrat\NedelniNavrat\App.xaml
-16-1622141221
+21-940085163
 
-20-110555694
+25985356860
 198-180915029
-MainWindow.xaml;messages\DvereVchod.xaml;messages\Nasel_klic_kuchyn.xaml;messages\Nasel_klic_oby.xaml;messages\Ovladac.xaml;messages\PripravujemeProVas.xaml;messages\Ridicak.xaml;messages\SpatnyKod.xaml;messages\Tady_nic.xaml;messages\VzkazLednice.xaml;messages\Zamceno.xaml;Pages\hall.xaml;Pages\kitchen.xaml;Pages\LivingRoom.xaml;Pages\MenuPage.xaml;Pages\Vitezstvi.xaml;
+MainWindow.xaml;messages\BotnikOby.xaml;messages\DvereVchod.xaml;messages\Knihovna.xaml;messages\Kos.xaml;messages\Nasel_klic_kuchyn.xaml;messages\Nasel_klic_oby.xaml;messages\Obraz.xaml;messages\Ovladac.xaml;messages\Pizza.xaml;messages\PripravujemeProVas.xaml;messages\Ridicak.xaml;messages\SpatnyKod.xaml;messages\Tady_nic.xaml;messages\VzkazLednice.xaml;messages\Zamceno.xaml;Pages\hall.xaml;Pages\kitchen.xaml;Pages\LivingRoom.xaml;Pages\MenuPage.xaml;Pages\Vitezstvi.xaml;
 
 False
 

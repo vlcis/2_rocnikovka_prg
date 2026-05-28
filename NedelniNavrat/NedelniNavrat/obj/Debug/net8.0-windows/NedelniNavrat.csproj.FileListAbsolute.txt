@@ -50,3 +50,13 @@ C:\Users\LOLEY\OneDrive\Plocha\2_rocnikovka_prg\NedelniNavrat\NedelniNavrat\obj\
 C:\Users\LOLEY\OneDrive\Plocha\2_rocnikovka_prg\NedelniNavrat\NedelniNavrat\obj\Debug\net8.0-windows\messages\VzkazLednice.g.cs
 C:\Users\LOLEY\OneDrive\Plocha\2_rocnikovka_prg\NedelniNavrat\NedelniNavrat\obj\Debug\net8.0-windows\messages\VzkazLednice.baml
 C:\Users\LOLEY\OneDrive\Plocha\2_rocnikovka_prg\NedelniNavrat\NedelniNavrat\obj\Debug\net8.0-windows\App.baml
+C:\Users\LOLEY\OneDrive\Plocha\2_rocnikovka_prg\NedelniNavrat\NedelniNavrat\obj\Debug\net8.0-windows\messages\BotnikOby.g.cs
+C:\Users\LOLEY\OneDrive\Plocha\2_rocnikovka_prg\NedelniNavrat\NedelniNavrat\obj\Debug\net8.0-windows\messages\Knihovna.g.cs
+C:\Users\LOLEY\OneDrive\Plocha\2_rocnikovka_prg\NedelniNavrat\NedelniNavrat\obj\Debug\net8.0-windows\messages\Kos.g.cs
+C:\Users\LOLEY\OneDrive\Plocha\2_rocnikovka_prg\NedelniNavrat\NedelniNavrat\obj\Debug\net8.0-windows\messages\Obraz.g.cs
+C:\Users\LOLEY\OneDrive\Plocha\2_rocnikovka_prg\NedelniNavrat\NedelniNavrat\obj\Debug\net8.0-windows\messages\Pizza.g.cs
+C:\Users\LOLEY\OneDrive\Plocha\2_rocnikovka_prg\NedelniNavrat\NedelniNavrat\obj\Debug\net8.0-windows\messages\BotnikOby.baml
+C:\Users\LOLEY\OneDrive\Plocha\2_rocnikovka_prg\NedelniNavrat\NedelniNavrat\obj\Debug\net8.0-windows\messages\Knihovna.baml
+C:\Users\LOLEY\OneDrive\Plocha\2_rocnikovka_prg\NedelniNavrat\NedelniNavrat\obj\Debug\net8.0-windows\messages\Kos.baml
+C:\Users\LOLEY\OneDrive\Plocha\2_rocnikovka_prg\NedelniNavrat\NedelniNavrat\obj\Debug\net8.0-windows\messages\Obraz.baml
+C:\Users\LOLEY\OneDrive\Plocha\2_rocnikovka_prg\NedelniNavrat\NedelniNavrat\obj\Debug\net8.0-windows\messages\Pizza.baml

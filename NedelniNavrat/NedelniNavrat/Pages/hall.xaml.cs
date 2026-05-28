@@ -81,5 +81,10 @@ namespace NedelniNavrat.Pages
         {
             new Tady_nic().ShowDialog();
         }
+
+        private void BotnikChod(object sender, RoutedEventArgs e)
+        {
+            new BotnikChod().ShowDialog();
+        }
     }
 }

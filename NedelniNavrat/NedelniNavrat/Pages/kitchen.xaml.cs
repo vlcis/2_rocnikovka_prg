@@ -40,5 +40,25 @@ namespace NedelniNavrat.Pages
         {
             new Tady_nic().ShowDialog();
         }
+
+        private void Pizza(object sender, EventArgs e)
+        {
+            new Pizza().ShowDialog();
+        }
+
+        private void Kos(object sender, EventArgs e)
+        {
+            new Kos().ShowDialog();
+        } 
+
+        private void Suplik(object sender, EventArgs e)
+        {
+            new Suplik().ShowDialog();
+        }
+
+        private void Trouba(object sender, EventArgs e)
+        {
+            new Trouba().ShowDialog();
+        }
     }
 }

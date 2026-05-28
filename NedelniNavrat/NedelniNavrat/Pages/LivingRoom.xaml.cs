@@ -71,11 +71,21 @@ namespace NedelniNavrat.Pages
 
         private void VzkazObyvak(object sender, RoutedEventArgs e)
         {
-            //new Vzkaz_obyvak().ShowDialog();
+            new Obraz().ShowDialog();
         }
         private void XXX(object sender, RoutedEventArgs e)
         {
             NavigationService.Navigate(new Vitezstvi());
+        }
+
+        private void Knihovna(object sender, RoutedEventArgs e)
+        {
+            new Knihovna().ShowDialog();
+        }
+
+        private void BotnikOby(object sender, RoutedEventArgs e)
+        {
+            new BotnikOby().ShowDialog();
         }
     }
 }

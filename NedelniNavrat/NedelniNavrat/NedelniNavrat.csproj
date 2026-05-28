@@ -13,23 +13,29 @@
     <None Remove="img\hall.png" />
     <None Remove="img\kitchen.jpg" />
     <None Remove="img\kitchen.png" />
+    <None Remove="img\kos.jpg" />
     <None Remove="img\livingroom.jpg" />
     <None Remove="img\livingroom.png" />
     <None Remove="img\menu.jpg" />
     <None Remove="img\menu.png" />
     <None Remove="img\menupage.jpg" />
+    <None Remove="img\pizza.jpg" />
     <None Remove="img\pozadi_popup.jpg" />
+    <None Remove="img\rovnice.jpg" />
     <None Remove="img\victory.jpg" />
   </ItemGroup>
 
   <ItemGroup>
     <Resource Include="img\hall.jpg" />
     <Resource Include="img\kitchen.jpg" />
+    <Resource Include="img\kos.jpg" />
     <Resource Include="img\livingroom.jpg" />
     <Resource Include="img\menupage.jpg">
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </Resource>
+    <Resource Include="img\pizza.jpg" />
     <Resource Include="img\pozadi_popup.jpg" />
+    <Resource Include="img\rovnice.jpg" />
     <Resource Include="img\victory.jpg" />
   </ItemGroup>
 
