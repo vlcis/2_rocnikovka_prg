@@ -57,8 +57,47 @@ namespace NedelniNavrat.Pages
         }
 
         private void Trouba(object sender, EventArgs e)
+        {if(Inventory.trouba == true)
+            {
+                new Tady_nic().ShowDialog();
+                Inventory.trouba = true;
+
+            }
+            else
+            {
+                new Trouba().ShowDialog();
+            }
+                
+        }
+
+        private void Skrinka1(object sender, EventArgs e)
         {
-            new Trouba().ShowDialog();
+            new Skrinka1().ShowDialog();
+        }
+
+        private void Skrinka2(object sender, EventArgs e)
+        {
+            new Skrinka2().ShowDialog();
+        }
+
+        private void Skrinka3(object sender, EventArgs e)
+        {
+            new Skrinka3().ShowDialog();
+        }
+
+        private void Skrinka4(object sender, EventArgs e)
+        {
+            new Skrinka4().ShowDialog();
+        }
+
+        private void Skrinka5(object sender, EventArgs e)
+        {
+            new Skrinka5().ShowDialog();
+        }
+
+        private void Skrinka6(object sender, EventArgs e)
+        {
+            new Skrinka6().ShowDialog();
         }
     }
 }

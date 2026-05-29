@@ -12,6 +12,7 @@ namespace NedelniNavrat
       public static bool klicObyvak = false;
         public static bool klicKuchyn = false;
         public static bool ovladac = false;
+        public static bool trouba = false;
 
     }
 }
