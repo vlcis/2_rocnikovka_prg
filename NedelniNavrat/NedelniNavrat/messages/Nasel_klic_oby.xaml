@@ -11,7 +11,7 @@
         <Image Source="/img/pozadi_popup.jpg"
                 Stretch="UniformToFill"
                 Panel.ZIndex="0"/>
-        <TextBlock HorizontalAlignment="Center" TextWrapping="Wrap" Text="Našel jsi klíč od obýváku" VerticalAlignment="Top" FontSize="48" FontWeight="Bold" FontFamily="Gill Sans Ultra Bold" Height="141" Width="395" Margin="0,181,0,0" RenderTransformOrigin="0.551,0.717"/>
+        <TextBlock HorizontalAlignment="Center" TextWrapping="Wrap" Text="Našel jsi klíč od obýváku" VerticalAlignment="Center" FontSize="48" FontWeight="Bold" FontFamily="Gill Sans Ultra Bold" Height="141" Width="396" RenderTransformOrigin="0.551,0.717"/>
         <Button Content="OK" Click="Close" BorderThickness="5" BorderBrush="Black" Background="Transparent" HorizontalAlignment="Left" Margin="625,343,0,0" VerticalAlignment="Top" Height="57" Width="144" FontSize="22" FontWeight="Bold" FontFamily="Gill Sans Ultra Bold"/>
     </Grid>
 </Window>

@@ -43,5 +43,10 @@ namespace NedelniNavrat.Pages
             new PripravujemeProVas().ShowDialog();
             
         }
+        private void LoadData(object sender, RoutedEventArgs e)
+        {
+            new LoadGame().ShowDialog();
+            StartButton_Click(sender, e);
+        }
     }
 }

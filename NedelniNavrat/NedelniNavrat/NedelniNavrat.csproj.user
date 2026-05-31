@@ -11,10 +11,16 @@
     <Compile Update="messages\DvereVchod.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Update="messages\EscapeMenu.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Update="messages\Knihovna.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
     <Compile Update="messages\Kos.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="messages\LoadGame.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
     <Compile Update="messages\Nasel_klic_kuchyn.xaml.cs">
@@ -36,6 +42,9 @@
       <SubType>Code</SubType>
     </Compile>
     <Compile Update="messages\Ridicak.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="messages\SaveName.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
     <Compile Update="messages\Skrinka1.xaml.cs">

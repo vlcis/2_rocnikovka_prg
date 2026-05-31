@@ -1,4 +1,9 @@
-﻿using System.Text;
+﻿using NedelniNavrat.messages;
+using NedelniNavrat.Pages;
+using System.IO;
+using System.Security.Cryptography.X509Certificates;
+using System.Text;
+using System.Text.RegularExpressions;
 using System.Windows;
 using System.Windows.Controls;
 using System.Windows.Data;
@@ -8,7 +13,9 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
-using NedelniNavrat.Pages;
+using static System.Net.Mime.MediaTypeNames;
+
+
 
 namespace NedelniNavrat
 {
@@ -16,15 +23,28 @@ namespace NedelniNavrat
     /// Interaction logic for MainWindow.xaml
     /// </summary>
     public partial class MainWindow : Window
+    
     {
+        
+        
         public MainWindow()
         {
             InitializeComponent();
 
             MainFrame.Navigate(new MenuPage());
 
-
+            Focus();
 
         }
+
+        private void Window_KeyDown(object sender, KeyEventArgs e)
+        {
+            if (e.Key == Key.Escape)
+            {
+                new EscapeMenu().ShowDialog();
+            }
+        }
+
+        
     }
 }

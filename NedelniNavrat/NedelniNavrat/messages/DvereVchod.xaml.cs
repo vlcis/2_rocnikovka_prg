@@ -48,7 +48,7 @@ namespace NedelniNavrat.messages
                     new SpatnyKod().ShowDialog();
                 }
             }
-            catch
+            catch (Exception) 
             {
                 new SpatnyKod().ShowDialog();
             }

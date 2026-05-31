@@ -17,7 +17,7 @@
 
        
         <Button Name="NovaHra" Click="StartButton_Click" Background="Transparent" HorizontalAlignment="Left" Margin="731,293,0,0" VerticalAlignment="Top" Height="43" Width="200"/>
-        <Button Name="NacistHru" Click="PripravujemeProVas" Background="Transparent" HorizontalAlignment="Left" Margin="731,357,0,0" VerticalAlignment="Top" Height="43" Width="200"/>
+        <Button Name="NacistHru" Click="LoadData" Background="Transparent" HorizontalAlignment="Left" Margin="731,357,0,0" VerticalAlignment="Top" Height="43" Width="200"/>
         <Button Name="Nastaveni" Click="PripravujemeProVas" Background="Transparent" HorizontalAlignment="Left" Margin="731,423,0,0" VerticalAlignment="Top" Height="43" Width="200"/>
         <Button Name="readme" Click="PripravujemeProVas" Background="Transparent" HorizontalAlignment="Left" Margin="731,489,0,0" VerticalAlignment="Top" Height="43" Width="200"/>
         <Button Name="KonecHry" Click="QuitButton_Click" Background="Transparent" HorizontalAlignment="Left" Margin="731,553,0,0" VerticalAlignment="Top" Height="43" Width="200"/>

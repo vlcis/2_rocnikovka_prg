@@ -11,7 +11,7 @@
         <Image Source="/img/pozadi_popup.jpg"
                 Stretch="UniformToFill"
                 Panel.ZIndex="0"/>
-        <TextBlock HorizontalAlignment="Center" TextWrapping="Wrap" Text="V troubě je buchta, dáte si kousek?" VerticalAlignment="Top" FontSize="48" FontWeight="Bold" FontFamily="Gill Sans Ultra Bold" Height="117" Width="644" Margin="0,163,0,0" RenderTransformOrigin="0.551,0.717"/>
+        <TextBlock HorizontalAlignment="Center" TextWrapping="Wrap" Text="V troubě je buchta, dáte si kousek?" VerticalAlignment="Top" FontSize="48" FontWeight="Bold" FontFamily="Gill Sans Ultra Bold" Height="117" Width="644" Margin="0,127,0,0" RenderTransformOrigin="0.551,0.717"/>
         <Button Content="ANO" Click="Ano" BorderThickness="5" BorderBrush="Black" Background="Transparent" HorizontalAlignment="Left" Margin="625,343,0,0" VerticalAlignment="Top" Height="57" Width="144" FontSize="22" FontWeight="Bold" FontFamily="Gill Sans Ultra Bold"/>
         <Button Content="NE" Click="Ne" BorderThickness="5" BorderBrush="Black" Background="Transparent" HorizontalAlignment="Left" Margin="55,343,0,0" VerticalAlignment="Top" Height="57" Width="144" FontSize="22" FontWeight="Bold" FontFamily="Gill Sans Ultra Bold"/>
     </Grid>

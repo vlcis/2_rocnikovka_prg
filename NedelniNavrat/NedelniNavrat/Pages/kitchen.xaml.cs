@@ -57,15 +57,15 @@ namespace NedelniNavrat.Pages
         }
 
         private void Trouba(object sender, EventArgs e)
-        {if(Inventory.trouba == true)
+        {if(Inventory.trouba == false)
             {
-                new Tady_nic().ShowDialog();
+                new Trouba().ShowDialog();
                 Inventory.trouba = true;
 
             }
             else
             {
-                new Trouba().ShowDialog();
+                new Tady_nic().ShowDialog();
             }
                 
         }
