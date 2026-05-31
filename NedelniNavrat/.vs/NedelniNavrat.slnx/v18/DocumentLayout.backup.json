@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\LOLEY\\OneDrive\\Plocha\\2_rocnikovka_prg\\NedelniNavrat\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{02D9E258-29EF-EF84-070E-16F9A0929DE9}|NedelniNavrat\\NedelniNavrat.csproj|c:\\users\\loley\\onedrive\\plocha\\2_rocnikovka_prg\\nedelninavrat\\nedelninavrat\\messages\\loadgame.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{02D9E258-29EF-EF84-070E-16F9A0929DE9}|NedelniNavrat\\NedelniNavrat.csproj|solutionrelative:nedelninavrat\\messages\\loadgame.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{02D9E258-29EF-EF84-070E-16F9A0929DE9}|NedelniNavrat\\NedelniNavrat.csproj|c:\\users\\loley\\onedrive\\plocha\\2_rocnikovka_prg\\nedelninavrat\\nedelninavrat\\messages\\loadgame.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{02D9E258-29EF-EF84-070E-16F9A0929DE9}|NedelniNavrat\\NedelniNavrat.csproj|solutionrelative:nedelninavrat\\messages\\loadgame.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{02D9E258-29EF-EF84-070E-16F9A0929DE9}|NedelniNavrat\\NedelniNavrat.csproj|c:\\users\\loley\\onedrive\\plocha\\2_rocnikovka_prg\\nedelninavrat\\nedelninavrat\\messages\\loadgame.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{02D9E258-29EF-EF84-070E-16F9A0929DE9}|NedelniNavrat\\NedelniNavrat.csproj|solutionrelative:nedelninavrat\\messages\\loadgame.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{02D9E258-29EF-EF84-070E-16F9A0929DE9}|NedelniNavrat\\NedelniNavrat.csproj|c:\\users\\loley\\onedrive\\plocha\\2_rocnikovka_prg\\nedelninavrat\\nedelninavrat\\pages\\menupage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -50,7 +50,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
@@ -79,25 +79,25 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "LoadGame.xaml.cs",
               "DocumentMoniker": "C:\\Users\\LOLEY\\OneDrive\\Plocha\\2_rocnikovka_prg\\NedelniNavrat\\NedelniNavrat\\messages\\LoadGame.xaml.cs",
               "RelativeDocumentMoniker": "NedelniNavrat\\messages\\LoadGame.xaml.cs",
               "ToolTip": "C:\\Users\\LOLEY\\OneDrive\\Plocha\\2_rocnikovka_prg\\NedelniNavrat\\NedelniNavrat\\messages\\LoadGame.xaml.cs",
               "RelativeToolTip": "NedelniNavrat\\messages\\LoadGame.xaml.cs",
-              "ViewState": "AgIAABEAAAAAAAAAAAAAwAcAAAAVAAAAAAAAAA==",
+              "ViewState": "AgIAACoAAAAAAAAAAAAiwEYAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-05-31T10:59:16.799Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "LoadGame.xaml",
               "DocumentMoniker": "C:\\Users\\LOLEY\\OneDrive\\Plocha\\2_rocnikovka_prg\\NedelniNavrat\\NedelniNavrat\\messages\\LoadGame.xaml",
               "RelativeDocumentMoniker": "NedelniNavrat\\messages\\LoadGame.xaml",
-              "ToolTip": "C:\\Users\\LOLEY\\OneDrive\\Plocha\\2_rocnikovka_prg\\NedelniNavrat\\NedelniNavrat\\messages\\LoadGame.xaml*",
-              "RelativeToolTip": "NedelniNavrat\\messages\\LoadGame.xaml*",
+              "ToolTip": "C:\\Users\\LOLEY\\OneDrive\\Plocha\\2_rocnikovka_prg\\NedelniNavrat\\NedelniNavrat\\messages\\LoadGame.xaml",
+              "RelativeToolTip": "NedelniNavrat\\messages\\LoadGame.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2026-05-31T10:57:02.054Z",
               "EditorCaption": ""
