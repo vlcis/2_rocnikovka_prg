@@ -1,165 +1,200 @@
-20.04. 2026
-Vytvoření scénáře (55min)
-První pokusy o grafiku (selhaly) (10min)
+Celkový čas strávený na hře (lze usoudit podle git logů) je asi 15-17h (10-12 mimo školu)
 
-
-17. 04. 2026
-Vytvoření projektu  (5min)
-Zopakovaní základních git funkcí a příkazů (35 min)
-Zjištění co je hra Polda (30min)
-Rozhododnutí o struktuře (15min)
-
-Struktura, kterou pravděpodobně změním:
 # Nedělní návrat
 
-## Popis projektu
+## 📌 Popis projektu
 
-**Nedělní návrat** je krátká 2D point & click hra inspirovaná logickými adventurami ve stylu série Polda.
+**Nedělní návrat** je 2D point & click logická adventura inspirovaná sérií her ve stylu Polda.
 
-Hráč se probouzí po večírku v cizím domě, aniž by věděl, kde se nachází nebo jak se tam dostal. Cílem hry je dostat se ven pomocí interakce s prostředím, sbírání předmětů a řešení logických hádanek.
+Hráč se probouzí po večírku v cizím domě a postupně zjišťuje, kde se nachází a jak se dostat ven. Cílem je opustit dům pomocí interakce s prostředím, sbírání předmětů a řešení logických hádanek.
 
-Hra kombinuje klasické prvky (klíče, zamčené dveře) s méně zřejmými logickými úkoly a nabízí více způsobů, jak dosáhnout cíle.
-
----
-
-## Herní principy
-
-* point & click ovládání
-* interakce s objekty v prostředí
-* sbírání a používání předmětů
-* logické hádanky
-* více možných řešení
+Hra kombinuje klasické adventurní prvky (klíče, zamčené objekty, průzkum místností) s méně zřejmými logickými indiciemi v prostředí.
 
 ---
 
-## Cíl hry
+## 🎯 Cíl hry
 
-Dostat se z domu ven.
+Hráč se musí dostat z domu ven.
 
-Hráč může:
+Možnosti:
 
-* uniknout **oknem** (jednodušší cesta)
-* nebo odemknout **hlavní dveře pomocí číselného kódu** (obtížnější cesta)
+- odemknout hlavní dveře pomocí číselného kódu (skrytá logická hádanka)
+- nebo najít alternativní cestu k úniku
 
----
-
-## Herní mechaniky
-
-### Inventář
-
-Hráč může sbírat předměty (např. klíče), které slouží k odemykání dalších částí domu.
-
-### Postup
-
-* hráč postupně odemyká nové místnosti
-* získává nové informace a předměty
-* skládá si obraz o situaci
-
-### Hádanky
-
-Ve hře se nachází dva typy hádanek:
-
-1. **Přímé (lineární)**
-
-   * např. nalezení klíče a odemčení dveří
-
-2. **Nepřímé (skryté)**
-
-   * kombinování nenápadných informací z prostředí
-   * vyžadují pozornost a logické uvažování
+Kód k hlavním dveřím je skryt v prostředí a skládá se z více vizuálních indicií.
 
 ---
 
-## Náročná hádanka (číselný kód)
+## 🧩 Herní principy
+
+- point & click interakce
+- prozkoumávání místností
+- sbírání a používání předmětů
+- logické hádanky a skládání indicií
+- více interaktivních objektů v každé místnosti
+
+---
+
+## 🏠 Struktura hry
+
+Hra obsahuje propojené místnosti:
+
+- obývací pokoj
+- kuchyň
+- chodba
+
+Každá místnost obsahuje klikatelné objekty (např. skříňky, spotřebiče, dveře), které skrývají:
+
+- předměty do inventáře
+- textové nápovědy
+- logické stopy ke kódu
+
+---
+
+## 🔐 Hlavní hádanka (kódové dveře)
 
 Hlavní dveře jsou zamčené číselným zámkem.
 
-Kód není přímo sdělen, ale je skryt v prostředí:
-
-* čísla se nachází v různých objektech (např. hodiny, poznámky, detaily v místnosti)
-* hráč musí tyto informace spojit
-
-Tato hádanka je záměrně obtížná a není nutná pro dokončení hry.
+- kód je 3místný (např. 137)
+- čísla jsou skrytá v prostředí
+- hráč musí spojit vizuální nápovědy
+- pořadí může být variabilní (logická kombinace)
 
 ---
 
-## Struktura hry
+## 🎒 Inventář
 
-Hra obsahuje několik propojených místností:
+Hráč může sbírat předměty, které:
 
-* obývací pokoj
-* kuchyň
-* chodba
+- slouží k odemykání dalších částí hry
+- ovlivňují dialogy a interakce
+- ukládají se do jednoduchého interního systému (GameState)
 
-Každá místnost obsahuje interaktivní objekty, které posouvají hráče dál.
-
----
-
-## Konec hry
-
-Po opuštění domu (oknem nebo dveřmi) hráč zjistí, že:
-
-> se nachází u sousedů a do domu se dostal vlastní chybou.
+Inventář je záměrně jednoduchý (boolean stavové proměnné).
 
 ---
 
-## Použité technologie
+## 💾 Ukládání hry
 
-Projekt je vytvořen v jazyce:
+Hra podporuje ukládání a načítání stavu:
 
-* Python
-
-Možné knihovny:
-
-* pygame (pro grafiku a vstup)
-
----
-
-## Důvod volby technologie
-
-Python byl zvolen z následujících důvodů:
-
-* rychlá implementace
-* jednoduchá syntaxe
-* vhodnost pro menší 2D projekty
-* dostatečné možnosti pro práci s grafikou a vstupem
-
-Cílem bylo soustředit se především na herní logiku, nikoliv na složitou technickou implementaci.
+- save se ukládá do `.txt` souborů
+- obsahuje stav inventáře a klíčové informace
+- umožňuje více save slotů
+- podporuje mazání a výběr save souborů
 
 ---
 
-## Rozsah projektu
+## 🖥️ Technické řešení
 
-Rozsah hry odpovídá časovým možnostem (cca 12–20 hodin práce).
+- Jazyk: C#
+- Framework: .NET 8
+- UI: WPF (Windows Presentation Foundation)
+- Architektura:
+  - Pages (herní obrazovky)
+  - Windows (popup dialogy)
+  - GameState (logika hry)
+  - Inventory (stav předmětů)
 
-Projekt se zaměřuje na:
+### Navigace
 
-* funkčnost
-* logickou strukturu
-* herní zážitek
+Hra využívá `Frame` pro přepínání mezi stránkami (Page).
 
-Nikoli na:
+### Dialogy
 
-* pokročilou grafiku
-* rozsáhlý obsah
-
----
-
-## Možná rozšíření
-
-* více místností
-* více předmětů
-* další alternativní konce
-* zvukové efekty
+Popup okna jsou řešena pomocí `ShowDialog()`.
 
 ---
 
-## Autor
+## 📁 Struktura projektu
 
-[TVÉ JMÉNO]
+- /Pages – herní místnosti a menu
+- /messages – popup okna a dialogy
+- /img – grafické assety (pozadí místností)
+- GameState.cs – logika hry a ukládání
+- Inventory.cs – stav předmětů
 
 ---
 
-## Poznámka
+## 🎨 Grafika
 
-Projekt je školní práce vytvořená za účelem demonstrace základních principů návrhu jednoduché hry a implementace herní logiky.
+Hra používá statické obrázky jako pozadí:
+
+- menu.png
+- livingroom.png
+- kitchen.png
+- hall.png
+
+Na tyto obrázky jsou vrstveny transparentní klikací oblasti (tlačítka).
+
+---
+
+## ⚙️ Implementované prvky
+
+- hlavní menu
+- přepínání místností
+- interaktivní objekty (skříně, spotřebiče, dveře)
+- popup dialogy s textem
+- inventář
+- ukládání a načítání hry
+- escape menu (pauza)
+
+---
+
+## 🧠 Herní design
+
+Hra je navržena jako:
+
+- krátká logická adventura
+- důraz na pozorování detailů
+- jednoduchá, ale kombinatorická logika
+- více způsobů interpretace indicií
+
+---
+
+## 📅 Časový plán vývoje
+
+- vytvoření konceptu a scénáře
+- návrh struktury místností
+- implementace WPF UI
+- implementace logiky interakcí
+- systém inventáře
+- save/load systém
+- testování a ladění
+
+---
+
+## 🧪 Možná rozšíření
+
+- více místností
+- více alternativních konců
+- zvukové efekty
+- vizuální animace objektů
+- složitější hádanky
+
+---
+
+## 🎓 Soulad se zadáním ročníkové práce
+
+Projekt splňuje požadavky:
+
+- obsahuje logické puzzle prvky
+- hráč řeší problém (únik z domu)
+- hra není jen klikací prezentace
+- obsahuje interakci s prostředím
+- využívá postupné odhalování informací
+- má jasný cíl a strukturu
+
+Rozsah odpovídá časovým možnostem vývoje.
+
+---
+
+## 👤 Autor
+
+Student ročníkové práce
+
+---
+
+## 📝 Poznámka
+
+Projekt je školní práce inspirovaná adventurním stylem her typu Polda. Cílem bylo vytvořit funkční logickou hru s důrazem na interakci, prostředí a řešení hádanek.

@@ -41,6 +41,10 @@
     {
       "AbsoluteMoniker": "D:0:0:{02D9E258-29EF-EF84-070E-16F9A0929DE9}|NedelniNavrat\\NedelniNavrat.csproj|c:\\users\\loley\\onedrive\\plocha\\2_rocnikovka_prg\\nedelninavrat\\nedelninavrat\\inventory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{02D9E258-29EF-EF84-070E-16F9A0929DE9}|NedelniNavrat\\NedelniNavrat.csproj|solutionrelative:nedelninavrat\\inventory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{02D9E258-29EF-EF84-070E-16F9A0929DE9}|NedelniNavrat\\NedelniNavrat.csproj|c:\\users\\loley\\onedrive\\plocha\\2_rocnikovka_prg\\nedelninavrat\\nedelninavrat\\readme.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}",
+      "RelativeMoniker": "D:0:0:{02D9E258-29EF-EF84-070E-16F9A0929DE9}|NedelniNavrat\\NedelniNavrat.csproj|solutionrelative:nedelninavrat\\readme.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}"
     }
   ],
   "DocumentGroupContainers": [
@@ -50,8 +54,21 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "README.md",
+              "DocumentMoniker": "C:\\Users\\LOLEY\\OneDrive\\Plocha\\2_rocnikovka_prg\\NedelniNavrat\\NedelniNavrat\\README.md",
+              "RelativeDocumentMoniker": "NedelniNavrat\\README.md",
+              "ToolTip": "C:\\Users\\LOLEY\\OneDrive\\Plocha\\2_rocnikovka_prg\\NedelniNavrat\\NedelniNavrat\\README.md",
+              "RelativeToolTip": "NedelniNavrat\\README.md",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
+              "WhenOpened": "2026-05-31T11:59:27.47Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
@@ -74,8 +91,7 @@
               "ToolTip": "C:\\Users\\LOLEY\\OneDrive\\Plocha\\2_rocnikovka_prg\\NedelniNavrat\\NedelniNavrat\\Pages\\MenuPage.xaml",
               "RelativeToolTip": "NedelniNavrat\\Pages\\MenuPage.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2026-05-31T11:10:44.958Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-31T11:10:44.958Z"
             },
             {
               "$type": "Document",
@@ -87,8 +103,7 @@
               "RelativeToolTip": "NedelniNavrat\\messages\\LoadGame.xaml.cs",
               "ViewState": "AgIAAAQAAAAAAAAAAADwv0YAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-31T10:59:16.799Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-31T10:59:16.799Z"
             },
             {
               "$type": "Document",
@@ -99,8 +114,7 @@
               "ToolTip": "C:\\Users\\LOLEY\\OneDrive\\Plocha\\2_rocnikovka_prg\\NedelniNavrat\\NedelniNavrat\\messages\\LoadGame.xaml",
               "RelativeToolTip": "NedelniNavrat\\messages\\LoadGame.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2026-05-31T10:57:02.054Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-31T10:57:02.054Z"
             },
             {
               "$type": "Document",
@@ -112,8 +126,7 @@
               "RelativeToolTip": "NedelniNavrat\\GameState.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-31T10:20:32.513Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-31T10:20:32.513Z"
             },
             {
               "$type": "Document",
@@ -125,8 +138,7 @@
               "RelativeToolTip": "NedelniNavrat\\messages\\EscapeMenu.xaml.cs",
               "ViewState": "AgIAABwAAAAAAAAAAAAYwCcAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-31T08:54:28.035Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-31T08:54:28.035Z"
             },
             {
               "$type": "Document",
@@ -137,8 +149,7 @@
               "ToolTip": "C:\\Users\\LOLEY\\OneDrive\\Plocha\\2_rocnikovka_prg\\NedelniNavrat\\NedelniNavrat\\messages\\EscapeMenu.xaml",
               "RelativeToolTip": "NedelniNavrat\\messages\\EscapeMenu.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2026-05-31T08:47:27.029Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-31T08:47:27.029Z"
             },
             {
               "$type": "Document",
@@ -150,8 +161,7 @@
               "RelativeToolTip": "NedelniNavrat\\MainWindow.xaml.cs",
               "ViewState": "AgIAAAMAAAAAAAAAAAAqwC8AAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-31T09:00:12.181Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-31T09:00:12.181Z"
             },
             {
               "$type": "Document",
@@ -163,8 +173,7 @@
               "RelativeToolTip": "NedelniNavrat\\Inventory.cs",
               "ViewState": "AgIAAAoAAAAAAAAAAAAUwBIAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-31T09:08:38.351Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-31T09:08:38.351Z"
             },
             {
               "$type": "Document",
@@ -176,8 +185,7 @@
               "RelativeToolTip": "NedelniNavrat\\messages\\SaveName.xaml.cs",
               "ViewState": "AgIAACUAAAAAAAAAAAAYwCgAAAAhAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-31T09:48:49.65Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-31T09:48:49.65Z"
             }
           ]
         }

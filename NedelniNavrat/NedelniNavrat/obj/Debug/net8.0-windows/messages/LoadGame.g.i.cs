@@ -60,7 +60,7 @@ namespace NedelniNavrat.messages {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/NedelniNavrat;component/messages/loadgame.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/NedelniNavrat;V1.0.0.0;component/messages/loadgame.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\..\messages\LoadGame.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);

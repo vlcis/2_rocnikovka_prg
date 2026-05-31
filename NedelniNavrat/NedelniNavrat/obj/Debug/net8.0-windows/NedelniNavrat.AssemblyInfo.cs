@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("NedelniNavrat")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+73827aadd7f32f05b234f091be4d27fa20e3986d")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+601a62a2f06d3d372f99f8bae803614f7857968e")]
 [assembly: System.Reflection.AssemblyProductAttribute("NedelniNavrat")]
 [assembly: System.Reflection.AssemblyTitleAttribute("NedelniNavrat")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
